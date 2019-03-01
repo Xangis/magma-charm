@@ -5,3 +5,4 @@ options:
   snap:
     magma-mud:
       channel: stable
+repo: git@github.com:xangis/magma-charm.git
