@@ -1,0 +1,12 @@
+name: magma
+summary: An oldschool multi-user dungeon.
+maintainer: Jason Champion <jchampion@zetacentauri.com>
+description: |
+  An old-school multi-user dungeon (MUD) from the DIKU family tree.
+  Magma is player-vs-player-centric and runs as a telnet server.
+tags:
+  - social
+subordinate: false
+provides:
+  providees-relation:
+    interface: magma

@@ -1,0 +1,7 @@
+includes:
+  - 'layer:basic'
+  - 'layer:snap'
+options:
+  snap:
+    magma-mud:
+      channel: stable
