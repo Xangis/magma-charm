@@ -8,7 +8,7 @@ tags:
   - social
 subordinate: false
 provides:
-  providees-relation:
+  provides-relation:
     interface: magma
 series:
   - xenial

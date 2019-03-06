@@ -1,5 +1,5 @@
 from charms.reactive import when, when_not, set_flag
-
+from charmhelpers.core.hookenv import open_port
 
 @when_not('magma.installed')
 def install_magma():
@@ -14,4 +14,5 @@ def install_magma():
     #  * https://jujucharms.com/docs/devel/developer-getting-started
     #  * https://github.com/juju-solutions/layer-basic#overview
     #
+    open_port(4001)
     set_flag('magma.installed')
