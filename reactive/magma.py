@@ -1,4 +1,4 @@
-from charms.reactive import when, when_not, set_flag
+from charms.reactive import when, when_not, set_flag, status_set
 from charmhelpers.core.hookenv import open_port
 
 @when_not('magma.installed')
@@ -16,3 +16,4 @@ def install_magma():
     #
     open_port(4001)
     set_flag('magma.installed')
+    status_set('active')
