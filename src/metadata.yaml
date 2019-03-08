@@ -11,4 +11,4 @@ provides:
   provides-relation:
     interface: magma
 series:
-  - xenial
+  - bionic
